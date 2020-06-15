@@ -104,7 +104,7 @@
                 		<version>6.4.4</version>
                 		<configuration>
                     			<url>jdbc:h2:file:./target/mediclaim-0.0.1-SNAPSHOT.jar</url>
-                    			<user>sa</user>
+                    			#<user>sa</user>
                			</configuration>
                 	<dependencies>
                     	<dependency>
