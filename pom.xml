@@ -107,9 +107,9 @@
                     			<user>inguser4</user>
 					<password>H@ckath0n</password>
                			</configuration>
-<!--                 		<schemas>
+                 		<schemas>
 				<schema>testdb<schema>	
-				</schemas> -->
+				</schemas>
             </plugin>
 
 		</plugins>
