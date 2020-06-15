@@ -108,7 +108,7 @@
 					<password>H@ckath0n</password>
                			</configuration>
                  		<schemas>
-				<schema>testdb<schema>	
+				<schema>testdb</schema>	
 				</schemas>
             </plugin>
 
