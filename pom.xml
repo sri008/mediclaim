@@ -106,11 +106,11 @@
                     			<url>jdbc:mysql://15.206.134.180:3306/mediclaim</url>
                     			<user>inguser4</user>
 					<password>H@ckath0n</password>
+					<schemas>
+						<schema>testdb</schema>	
+					</schemas>
                			</configuration>
-                 		<schemas>
-				<schema>testdb</schema>	
-				</schemas>
-            </plugin>
+                 	</plugin>
 
 		</plugins>
 	</build>
