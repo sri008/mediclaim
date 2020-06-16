@@ -107,7 +107,7 @@
                     			<user>inguser4</user>
 					<password>H@ckath0n</password>
 					<schemas>
-						<schema>mediclaim</schema>	
+						<schema>testdb</schema>	
 					</schemas>
                			</configuration>
                  	</plugin>
