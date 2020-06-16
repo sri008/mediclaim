@@ -34,7 +34,8 @@ pipeline {
 		
 	stage ('DB migration') {
 		steps {
-			sh '/opt/maven/bin/mvn clean flyway:migrate'
+			sh label: '', script: '''/opt/maven/bin/mvn clean flyway:migrate
+if [ $? -eq 0 ]; then slackSend color: \'good\', message: \'Message from Jenkins Pipeline\' else slackSend color: \'bad\', message: \'Message from Jenkins Pipeline failed\' '''
 		}
 	}
 }
