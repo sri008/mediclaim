@@ -14,6 +14,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mediclaim</name>
 	<description>Demo project for Spring Boot</description>
+	<scm>
+	        <connection>scm:https://github.com/sri008/mediclaim.git</connection>
+		<developerConnection>scm:git:https://sri008:kiri567sri@github.com/sri008/mediclaim.git</developerConnection>
+		<url>github.com/sri008/mediclaim.git</url>
+   	  <tag>HEAD</tag>
+  </scm>
 
 	<properties>
 		<java.version>1.8</java.version>
